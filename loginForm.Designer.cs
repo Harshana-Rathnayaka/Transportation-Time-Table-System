@@ -35,7 +35,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.welcomeLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.signupLinkBtn = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // usernameTextBox
@@ -84,10 +84,11 @@
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(151, 189);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(158, 27);
+            this.button1.Size = new System.Drawing.Size(158, 24);
             this.button1.TabIndex = 4;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // welcomeLabel
             // 
@@ -110,17 +111,17 @@
             this.label1.Text = "Don\'t have an account? ";
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
-            // linkLabel1
+            // signupLinkBtn
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(236, 229);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(72, 15);
-            this.linkLabel1.TabIndex = 7;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Signup now";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            this.signupLinkBtn.AutoSize = true;
+            this.signupLinkBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signupLinkBtn.Location = new System.Drawing.Point(236, 229);
+            this.signupLinkBtn.Name = "signupLinkBtn";
+            this.signupLinkBtn.Size = new System.Drawing.Size(72, 15);
+            this.signupLinkBtn.TabIndex = 7;
+            this.signupLinkBtn.TabStop = true;
+            this.signupLinkBtn.Text = "Signup now";
+            this.signupLinkBtn.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // loginForm
             // 
@@ -128,7 +129,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(384, 361);
-            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.signupLinkBtn);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.welcomeLabel);
             this.Controls.Add(this.button1);
@@ -154,7 +155,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label welcomeLabel;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel signupLinkBtn;
     }
 }
 

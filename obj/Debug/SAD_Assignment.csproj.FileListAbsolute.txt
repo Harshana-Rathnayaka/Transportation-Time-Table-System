@@ -1,0 +1,9 @@
+c:\users\user\documents\visual studio 2012\Projects\SAD_Assignment\SAD_Assignment\bin\Debug\SAD_Assignment.exe.config
+C:\Users\User\documents\visual studio 2012\Projects\SAD_Assignment\SAD_Assignment\bin\Debug\SAD_Assignment.exe
+C:\Users\User\documents\visual studio 2012\Projects\SAD_Assignment\SAD_Assignment\bin\Debug\SAD_Assignment.pdb
+C:\Users\User\documents\visual studio 2012\Projects\SAD_Assignment\SAD_Assignment\obj\Debug\SAD_Assignment.csprojResolveAssemblyReference.cache
+C:\Users\User\documents\visual studio 2012\Projects\SAD_Assignment\SAD_Assignment\obj\Debug\SAD_Assignment.loginForm.resources
+C:\Users\User\documents\visual studio 2012\Projects\SAD_Assignment\SAD_Assignment\obj\Debug\SAD_Assignment.Properties.Resources.resources
+C:\Users\User\documents\visual studio 2012\Projects\SAD_Assignment\SAD_Assignment\obj\Debug\SAD_Assignment.csproj.GenerateResource.Cache
+C:\Users\User\documents\visual studio 2012\Projects\SAD_Assignment\SAD_Assignment\obj\Debug\SAD_Assignment.exe
+C:\Users\User\documents\visual studio 2012\Projects\SAD_Assignment\SAD_Assignment\obj\Debug\SAD_Assignment.pdb

@@ -99,19 +99,12 @@ namespace SAD_Assignment
                         usernameTextBox.Focus();
                     }
 
-
-
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message);
                 }
             }
-
-
-
-
-
         }
     }
 }

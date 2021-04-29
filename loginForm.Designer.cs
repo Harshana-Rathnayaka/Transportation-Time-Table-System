@@ -32,7 +32,7 @@
             this.passwordTextBox = new System.Windows.Forms.MaskedTextBox();
             this.usernameLabel = new System.Windows.Forms.Label();
             this.passwordLabel = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.loginBtn = new System.Windows.Forms.Button();
             this.welcomeLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.signupLinkBtn = new System.Windows.Forms.LinkLabel();
@@ -75,20 +75,20 @@
             this.passwordLabel.TabIndex = 3;
             this.passwordLabel.Text = "Password";
             // 
-            // button1
+            // loginBtn
             // 
-            this.button1.BackColor = System.Drawing.Color.Green;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(151, 189);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(158, 24);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Login";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.loginBtn.BackColor = System.Drawing.Color.Green;
+            this.loginBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.loginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.loginBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginBtn.ForeColor = System.Drawing.Color.White;
+            this.loginBtn.Location = new System.Drawing.Point(151, 189);
+            this.loginBtn.Name = "loginBtn";
+            this.loginBtn.Size = new System.Drawing.Size(158, 24);
+            this.loginBtn.TabIndex = 4;
+            this.loginBtn.Text = "Login";
+            this.loginBtn.UseVisualStyleBackColor = false;
+            this.loginBtn.Click += new System.EventHandler(this.button1_Click);
             // 
             // welcomeLabel
             // 
@@ -132,7 +132,7 @@
             this.Controls.Add(this.signupLinkBtn);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.welcomeLabel);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.loginBtn);
             this.Controls.Add(this.passwordLabel);
             this.Controls.Add(this.usernameLabel);
             this.Controls.Add(this.passwordTextBox);
@@ -152,7 +152,7 @@
         private System.Windows.Forms.MaskedTextBox passwordTextBox;
         private System.Windows.Forms.Label usernameLabel;
         private System.Windows.Forms.Label passwordLabel;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button loginBtn;
         private System.Windows.Forms.Label welcomeLabel;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.LinkLabel signupLinkBtn;

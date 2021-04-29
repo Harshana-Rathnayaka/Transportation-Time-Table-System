@@ -11,13 +11,13 @@ using System.Data.SqlClient;
 
 namespace SAD_Assignment
 {
-    public partial class loginForm : Form
+    public partial class LoginForm : Form
     {
 
         SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-M2P60SB\SQLEXPRESS;Initial Catalog=sad_project;Integrated Security=True");
 
 
-        public loginForm()
+        public LoginForm()
         {
             InitializeComponent();
         }
@@ -40,7 +40,7 @@ namespace SAD_Assignment
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             this.Hide();
-            registrationForm registrationForm = new registrationForm();
+            RegistrationForm registrationForm = new RegistrationForm();
             registrationForm.Show();
         }
 
@@ -83,16 +83,27 @@ namespace SAD_Assignment
                         // Message box with the username if the credentials are correct
                         MessageBox.Show("Have a Nice Day!! ", "Welcome: " + username);
                         this.Hide();
-                        // passingText = txtname.Text;
-                        // Form3 form3 = new Form3();
-                        registrationForm registrationForm = new registrationForm();
-                        registrationForm.Show();
+
+                        string role = ds.Tables[0].Rows[0]["user_type"].ToString();
+
+                        switch (role)
+                        {
+                            case "USER": // normal users
+                                UserHomePage userHomePage = new UserHomePage();
+                                userHomePage.Show();
+                                break;
+
+                            case "ADMIN": // admin user
+                                AdminHomePage adminHomePage = new AdminHomePage();
+                                adminHomePage.Show();
+                                break;
+                        }
 
                     }
                     else
                     {
                         //error message if the credentials are incorrect
-                        MessageBox.Show("The username or password is incorrect. Please check again!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("The username or password is incorrect. Please try again!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                         usernameTextBox.Clear();
                         passwordTextBox.Clear();

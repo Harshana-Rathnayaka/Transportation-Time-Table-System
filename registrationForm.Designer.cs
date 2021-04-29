@@ -1,6 +1,6 @@
 ﻿namespace SAD_Assignment
 {
-    partial class registrationForm
+    partial class RegistrationForm
     {
         /// <summary>
         /// Required designer variable.
@@ -143,7 +143,7 @@
             this.loginLinkBtn.Text = "Login now";
             this.loginLinkBtn.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.loginLinkBtn_LinkClicked);
             // 
-            // registrationForm
+            // RegistrationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -160,7 +160,7 @@
             this.Controls.Add(this.usernameTextBox);
             this.Controls.Add(this.nameTextBox);
             this.MaximizeBox = false;
-            this.Name = "registrationForm";
+            this.Name = "RegistrationForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registration";
             this.ResumeLayout(false);

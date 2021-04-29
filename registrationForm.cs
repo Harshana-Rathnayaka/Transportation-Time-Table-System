@@ -11,12 +11,12 @@ using System.Data.SqlClient;
 
 namespace SAD_Assignment
 {
-    public partial class registrationForm : Form
+    public partial class RegistrationForm : Form
     {
 
         SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-M2P60SB\SQLEXPRESS;Initial Catalog=sad_project;Integrated Security=True");
 
-        public registrationForm()
+        public RegistrationForm()
         {
             InitializeComponent();
         }
@@ -59,7 +59,7 @@ namespace SAD_Assignment
                     con.Close();
 
                     this.Hide();
-                    loginForm loginForm = new loginForm();
+                    LoginForm loginForm = new LoginForm();
                     loginForm.Show();
 
                 }
@@ -77,7 +77,7 @@ namespace SAD_Assignment
         private void loginLinkBtn_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             this.Hide();
-            loginForm loginForm = new loginForm();
+            LoginForm loginForm = new LoginForm();
             loginForm.Show();
         }
     }

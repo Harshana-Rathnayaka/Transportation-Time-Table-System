@@ -42,5 +42,12 @@ namespace SAD_Assignment
             AddScheduleForm addScheduleForm = new AddScheduleForm();
             addScheduleForm.Show();
         }
+
+        private void AllSchedulesBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AllSchedules allSchedules = new AllSchedules();
+            allSchedules.Show();
+        }
     }
 }

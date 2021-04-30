@@ -66,6 +66,7 @@
             this.AllSchedulesBtn.TabIndex = 2;
             this.AllSchedulesBtn.Text = "All Schedules";
             this.AllSchedulesBtn.UseVisualStyleBackColor = false;
+            this.AllSchedulesBtn.Click += new System.EventHandler(this.AllSchedulesBtn_Click);
             // 
             // ExitBtn
             // 

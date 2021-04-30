@@ -18,7 +18,6 @@ namespace SAD_Assignment
 
         SqlDataAdapter adpt;
         DataTable dt;
-        int id;
 
         public AddScheduleForm()
         {
@@ -136,6 +135,11 @@ namespace SAD_Assignment
             adpt.Fill(dt);
             dataGridView1.DataSource = dt;
             con.Close();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

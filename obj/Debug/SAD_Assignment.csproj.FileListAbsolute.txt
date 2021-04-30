@@ -10,3 +10,4 @@ C:\Users\User\documents\visual studio 2012\Projects\SAD_Assignment\SAD_Assignmen
 C:\Users\User\documents\visual studio 2012\Projects\SAD_Assignment\SAD_Assignment\obj\Debug\SAD_Assignment.pdb
 C:\Users\User\documents\visual studio 2012\Projects\SAD_Assignment\SAD_Assignment\obj\Debug\SAD_Assignment.AdminHomePage.resources
 C:\Users\User\Documents\Visual Studio 2012\Projects\SAD_Assignment\SAD_Assignment\obj\Debug\SAD_Assignment.AddScheduleForm.resources
+C:\Users\User\documents\visual studio 2012\Projects\SAD_Assignment\SAD_Assignment\obj\Debug\SAD_Assignment.AllSchedules.resources

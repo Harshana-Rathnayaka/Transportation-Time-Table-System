@@ -32,11 +32,15 @@ namespace SAD_Assignment
         private void ExitBtn_Click(object sender, EventArgs e)
         {
             this.Close();
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
         }
 
         private void NewScheduleBtn_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            AddScheduleForm addScheduleForm = new AddScheduleForm();
+            addScheduleForm.Show();
         }
     }
 }

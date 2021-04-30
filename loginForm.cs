@@ -66,7 +66,7 @@ namespace SAD_Assignment
                 try
                 {
                     // checking whether the username password is correct with the database
-                    SqlCommand cmd = new SqlCommand("select * from users where username=@username and password=@password", con);
+                    SqlCommand cmd = new SqlCommand("SELECT * FROM users where username=@username and password=@password", con);
                     cmd.Parameters.AddWithValue("username", username);
                     cmd.Parameters.AddWithValue("password", password);
 

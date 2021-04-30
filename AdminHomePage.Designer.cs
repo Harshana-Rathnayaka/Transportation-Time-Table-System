@@ -129,6 +129,7 @@
             this.Controls.Add(this.ExitBtn);
             this.Controls.Add(this.AllSchedulesBtn);
             this.Controls.Add(this.NewScheduleBtn);
+            this.MaximizeBox = false;
             this.Name = "AdminHomePage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";

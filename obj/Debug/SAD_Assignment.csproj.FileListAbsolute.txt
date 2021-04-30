@@ -8,3 +8,4 @@ C:\Users\User\documents\visual studio 2012\Projects\SAD_Assignment\SAD_Assignmen
 C:\Users\User\documents\visual studio 2012\Projects\SAD_Assignment\SAD_Assignment\bin\Debug\SAD_Assignment.pdb
 C:\Users\User\documents\visual studio 2012\Projects\SAD_Assignment\SAD_Assignment\obj\Debug\SAD_Assignment.exe
 C:\Users\User\documents\visual studio 2012\Projects\SAD_Assignment\SAD_Assignment\obj\Debug\SAD_Assignment.pdb
+C:\Users\User\documents\visual studio 2012\Projects\SAD_Assignment\SAD_Assignment\obj\Debug\SAD_Assignment.AdminHomePage.resources

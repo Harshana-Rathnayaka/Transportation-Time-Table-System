@@ -15,6 +15,28 @@ namespace SAD_Assignment
         public AdminHomePage()
         {
             InitializeComponent();
+            Timer.Start();
+        }
+
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            TimeLabel.Text = DateTime.Now.ToString("HH:mm:ss");
+            DateLabel.Text = DateTime.Now.ToString("yyyy-MM-dd");
+        }
+
+        private void AdminHomePage_Load(object sender, EventArgs e)
+        {
+            welcomeLabel.Text = ("Welcome " + LoginForm.passingText);
+        }
+
+        private void ExitBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void NewScheduleBtn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

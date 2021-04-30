@@ -15,7 +15,7 @@ namespace SAD_Assignment
     {
 
         SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-M2P60SB\SQLEXPRESS;Initial Catalog=sad_project;Integrated Security=True");
-
+        public static string passingText;
 
         public LoginForm()
         {
@@ -85,6 +85,7 @@ namespace SAD_Assignment
                         this.Hide();
 
                         string role = ds.Tables[0].Rows[0]["user_type"].ToString();
+                        passingText = username;
 
                         switch (role)
                         {
